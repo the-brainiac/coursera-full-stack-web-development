@@ -1,0 +1,30 @@
+h1{
+	text-align: center;
+}
+.box{
+	border: 2px solid black;
+	background-color: grey;
+	margin: 20px;
+}
+p{
+	clear:right;
+}
+h2{
+	color:black;
+	width:100px;
+	text-align: center;
+	float: right;
+	padding: 5px;
+	border :2px solid black;
+	margin: 0;
+}
+#Chicken{
+	background-color: pink;
+}
+#Beef{
+	background-color: red;
+	color: white;
+}
+#Sushi{
+	background-color: yellow;
+}
