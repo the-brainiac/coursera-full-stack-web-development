@@ -59,9 +59,9 @@ for (let name of names) {
   // name in the loop.
   if (firstLetter == 'j') {
     // byeSpeaker.xxxx
-    console.log('Hello '+ name);
+    console.log('Good Bye '+ name);
   } else {
     // helloSpeaker.xxxx
-    console.log('Good Bye '+ name);
+    console.log('Hello '+ name);
   }
 }
