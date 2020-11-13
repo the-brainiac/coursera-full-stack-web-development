@@ -58,10 +58,10 @@ for (let name of names) {
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
   if (firstLetter == 'j') {
-    // byeSpeaker.xxxx
-    console.log('Good Bye '+ name);
+    byeSpeaker.speak(name);
+    // console.log('Good Bye '+ name);
   } else {
-    // helloSpeaker.xxxx
-    console.log('Hello '+ name);
+    helloSpeaker.speak(name);
+    // console.log('Hello '+ name);
   }
 }
